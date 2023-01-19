@@ -1,6 +1,7 @@
 from nextcord.ext import commands
 import nextcord
 import random
+import os
 
 intents = nextcord.Intents.all()
 bot = commands.Bot(intents=intents)
