@@ -95,15 +95,8 @@ async def on_message(msg):
     if msg.author == bot.user:
         return
 
-#def start():
-#    try:
-#        keep_alive()
-#        bot.run(os.environ['TOKEN'])
-#    except nextcord.errors.HTTPException as e:
-#        print("\n\n\nBLOCKED BY RATE LIMITS\n\n\n")
-#        print(e)
-#        os.system("python restarter.py")
-#        os.system('kill 1')
+def start():
+    bot.run(os.environ['TOKEN'])
 
 
-#start()
+start()
